@@ -61,6 +61,10 @@ This performs a strict MkDocs build and checks links in the generated website.
 
 ## Contributing
 
+The model gallery lives in `docs/gallery/`. Figures and downloadable model files
+are versioned in `docs/assets/gallery/` and published with the website.
+Use `.github/PULL_REQUEST_TEMPLATE/gallery.md` for scientific review of new entries.
+
 Website content lives in `docs/`.
 
 For ordinary content changes:

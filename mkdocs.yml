@@ -10,6 +10,7 @@ site_dir: 'site/'
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
   icon:
     repo: fontawesome/brands/github
@@ -59,6 +60,7 @@ theme:
 extra_css:
   - assets/css/extra.css
   - assets/css/projects.css
+  - assets/css/analysis-profile.css
 
 extra_javascript:
   - assets/javascript/config.js
@@ -87,6 +89,7 @@ plugins:
         nav_translations:
           Home: Startseite
           About: Über DEMOS
+          Gallery: Modellgalerie
           Consortium: Konsortium
           Members: Mitglieder
           Contact: Kontakt
@@ -179,6 +182,11 @@ markdown_extensions:
 nav:
   - Home: index.md
   - About: about.md
+  - Gallery:
+    - gallery/index.md
+    - "Hadron spectroscopy and amplitude analysis":
+      - gallery/hadron-spectroscopy/index.md
+      - "LHCb · Λc⁺ → pK⁻π⁺": gallery/hadron-spectroscopy/lhcb-lambdac-pkpi.md
   - Consortium:
     - consortium/index.md
     - Members: consortium/members.md

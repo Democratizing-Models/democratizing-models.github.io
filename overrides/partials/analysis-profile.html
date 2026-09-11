@@ -1,0 +1,50 @@
+{% set profile = page.meta.analysis_profile %}
+{% set categories = {
+  "pdf": ["Forward model (pdf)", "An explicit probability model or likelihood, including count probabilities. Monte Carlo may have been used to prepare templates or calibrate tests."],
+  "measure": ["Forward model (Measure)", "An unnormalized intensity, amplitude, or theory-response model. Normalization or an observation model is supplied separately."],
+  "mc": ["Simulation-based forward model", "Predictions are obtained through Monte Carlo event or transport simulation. The category describes the forward model; optimization, MCMC, and statistical calibration are separate inference choices."]
+} %}
+{% set category = categories[profile.category] %}
+{% set metrics = [
+  ["forward_model_core_hours", "Forward", "Forward-model evaluation cost", [0.1, 1, 10, 100], "core-h"],
+  ["parameter_count", "Params", "Number of model parameters", [1, 10, 100, 1000], ""],
+  ["analysis_core_hours", "Analysis", "Full-analysis cost", [0.1, 1, 10, 100, 1000], "core-h"],
+  ["data_input_mb", "Input", "Input data size", [0.1, 1, 10, 100, 1000], "MB"],
+  ["external_frameworks", "Tools", "External frameworks", [0, 1, 2, 3], ""],
+  ["software_stack_lines", "Code", "Software-stack lines of code", [10, 100, 1000, 10000], "LOC"],
+  ["citation_count", "Cites", "Reference count in the analysis profile", [1, 10, 100, 1000, 10000], ""]
+] %}
+<section class="analysis-profile" aria-label="Analysis profile">
+  <p class="analysis-profile-title">Analysis profile</p>
+  <p class="analysis-profile-field">{{ profile.field | e }}</p>
+  <p class="analysis-profile-model">{{ page.title | e }}</p>
+  <span class="analysis-profile-label analysis-profile-label--{{ profile.category }}">{{ category[0] }}</span>
+  <p class="analysis-profile-reason">{{ profile.reason | e }}</p>
+  <table class="analysis-profile-metrics" aria-label="Analysis metrics">
+    <tbody>
+      {% for key, label, description, thresholds, unit in metrics %}
+        {% set value = profile.metrics[key] | float %}
+        {% set bucket = namespace(level=thresholds | length, found=false) %}
+        {% for edge in thresholds %}
+          {% if not bucket.found and value <= edge %}
+            {% set bucket.level = loop.index %}
+            {% set bucket.found = true %}
+          {% endif %}
+        {% endfor %}
+        <tr class="analysis-metric--{{ key }}">
+          <th scope="row" title="{{ description }}">{{ label }}</th>
+          <td class="analysis-profile-scale" aria-hidden="true">
+            {% for _ in range(bucket.level) %}<i></i>{% endfor %}
+          </td>
+          <td class="analysis-profile-value">{{ "%g" | format(value) }}{% if unit %} {{ unit }}{% endif %}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <p class="analysis-profile-note">{{ profile.note | e }}</p>
+  <details>
+    <summary>About this profile</summary>
+    <p>{{ category[1] }}</p>
+    <p>Metrics describe the scoped analysis and are approximate unless explicitly measured. Colored squares show metric-specific size bands; they are not scores. “Cites” is a reference-count estimate, not a live citation count.</p>
+  </details>
+</section>
