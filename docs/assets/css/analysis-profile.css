@@ -1,0 +1,47 @@
+.analysis-profile {
+  padding: .7rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .3rem;
+  background: var(--md-code-bg-color);
+  color: var(--md-default-fg-color);
+  font-size: .65rem;
+  line-height: 1.45;
+}
+.analysis-profile p { margin: 0 0 .4rem; }
+.analysis-profile .analysis-profile-title { font-size: .85rem; font-weight: 700; }
+.analysis-profile-field { color: var(--md-default-fg-color--light); }
+.analysis-profile-model { font-style: italic; }
+.analysis-profile-label {
+  display: inline-block;
+  padding: .2rem .4rem;
+  margin: .2rem 0 .5rem;
+  border-radius: .2rem;
+  color: white;
+  font-weight: 700;
+}
+.analysis-profile-label--pdf { background: #155e75; }
+.analysis-profile-label--measure { background: #6b3591; }
+.analysis-profile-label--mc { background: #91420e; }
+.analysis-profile table { width: 100%; border-collapse: collapse; margin: .55rem 0; }
+.analysis-profile th, .analysis-profile td { padding: .2rem 0; border: 0; }
+.analysis-profile th { text-align: left; font-weight: 500; }
+.analysis-profile-value { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.analysis-profile-scale { white-space: nowrap; padding: 0 .2rem !important; }
+.analysis-profile-scale i { display: inline-block; width: .23rem; height: .23rem; margin-right: .09rem; border-radius: 1px; background: var(--metric-color); }
+.analysis-metric--forward_model_core_hours { --metric-color: #b33630; }
+.analysis-metric--parameter_count { --metric-color: #71358a; }
+.analysis-metric--analysis_core_hours { --metric-color: #d26d1d; }
+.analysis-metric--data_input_mb { --metric-color: #0f7b78; }
+.analysis-metric--external_frameworks { --metric-color: #2f8f3a; }
+.analysis-metric--software_stack_lines { --metric-color: #2d83a6; }
+.analysis-metric--citation_count { --metric-color: #a18c1d; }
+.analysis-profile details { font-size: .6rem; }
+.analysis-profile summary { cursor: pointer; font-weight: 600; }
+.analysis-profile details p { margin-top: .4rem; }
+.md-sidebar--primary .analysis-profile { display: none; }
+.analysis-profile-mobile { display: none; }
+@media screen and (max-width: 59.984375em) {
+  .analysis-profile-mobile { display: block; margin-bottom: 1rem; }
+  .analysis-profile-mobile .analysis-profile { max-width: 25rem; font-size: .75rem; }
+}

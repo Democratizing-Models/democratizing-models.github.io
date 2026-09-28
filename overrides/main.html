@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if page and page.meta.analysis_profile %}
+    <div class="analysis-profile-mobile">
+      {% include "partials/analysis-profile.html" %}
+    </div>
+  {% endif %}
+  {{ super() }}
+{% endblock %}
