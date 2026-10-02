@@ -15,7 +15,7 @@ HS³ ist ein implementierungsunabhängiges Format zur Veröffentlichung statisti
 [:material-book-open-variant: Dokumentation](https://hep-statistics-serialization-standard.github.io/){ .md-button }
 [:fontawesome-brands-github: Quellcode](https://github.com/hep-statistics-serialization-standard){ .md-button }
 [:material-file-document-outline: Publikation](https://arxiv.org/abs/2606.01760){ .md-button }
-[:material-test-tube: Neuen Testfall einreichen](https://hs3-fixtures.app.cern.ch/){ .md-button }
+[:material-tools: Online-Tools](https://hs3.app.cern.ch/){ .md-button }
 
 </div>
 
