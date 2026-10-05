@@ -1,0 +1,155 @@
+[
+  {
+    "section": "Hadron spectroscopy and amplitude analysis",
+    "entries": [
+      {
+        "path": "hadron-spectroscopy/lhcb-lambdac-pkpi.md",
+        "title_latex": "LHCb · $\\Lambda_c^+\\to p K^- \\pi^+$",
+        "title_plain": "LHCb · Λc⁺ → p K⁻ π⁺",
+        "summary": "A reusable amplitude model for the Λc⁺ → p K⁻ π⁺ decay."
+      },
+      {
+        "path": "hadron-spectroscopy/besiii-zc3900.md",
+        "title_latex": "BESIII · $Z_c(3900)$ in $e^+e^-\\to\\pi\\pi J/\\psi$",
+        "title_plain": "BESIII · Zc(3900) in e⁺e⁻ → ππ J/ψ",
+        "summary": "An amplitude analysis of the charged charmonium-like Zc(3900) state."
+      },
+      {
+        "path": "hadron-spectroscopy/compass-3pi.md",
+        "title_latex": "COMPASS · $\\pi p\\to3\\pi p$ partial waves",
+        "title_plain": "COMPASS · πp → 3πp partial waves",
+        "summary": "A partial-wave model of diffractive three-pion production."
+      }
+    ]
+  },
+  {
+    "section": "Flavor physics",
+    "entries": [
+      {
+        "path": "flavor/belle2-knunu.md",
+        "title_latex": "Belle II · $B^+\\to K^+\\nu\\bar\\nu$",
+        "title_plain": "Belle II · B⁺ → K⁺νν̄",
+        "summary": "A reinterpretation of the B⁺ → K⁺νν̄ measurement."
+      },
+      {
+        "path": "flavor/belle2-ktautau.md",
+        "title_latex": "Belle II · $B^0\\to K^{*0}\\tau^+\\tau^-$",
+        "title_plain": "Belle II · B⁰ → K*⁰τ⁺τ⁻",
+        "summary": "A search model for the rare B⁰ → K*⁰τ⁺τ⁻ decay."
+      },
+      {
+        "path": "flavor/lhcb-kstarmumu.md",
+        "title_latex": "LHCb · $B^0\\to K^{*0}\\mu^+\\mu^-$ amplitudes",
+        "title_plain": "LHCb · B⁰ → K*⁰μ⁺μ⁻ amplitudes",
+        "summary": "A reusable amplitude model for an angular analysis of B⁰ → K*⁰μ⁺μ⁻."
+      }
+    ]
+  },
+  {
+    "section": "Higgs physics",
+    "entries": [
+      {
+        "path": "higgs/atlas-higgs-discovery.md",
+        "title_latex": "ATLAS · Higgs-boson discovery combination",
+        "title_plain": "ATLAS · Higgs-boson discovery combination",
+        "summary": "The statistical combination used in the ATLAS Higgs-boson discovery."
+      },
+      {
+        "path": "higgs/atlas-public-likelihoods.md",
+        "title_latex": "ATLAS · $VH$, $H\\to WW^*$ likelihood",
+        "title_plain": "ATLAS · VH, H → WW* likelihood",
+        "summary": "A public statistical model for the VH, H → WW* measurement."
+      }
+    ]
+  },
+  {
+    "section": "Neutrino physics",
+    "entries": [
+      {
+        "path": "neutrino-oscillations/dayabay-theta13.md",
+        "title_latex": "Daya Bay · reactor $\\bar\\nu_e$ disappearance",
+        "title_plain": "Daya Bay · reactor ν̄ₑ disappearance",
+        "summary": "A reactor-antineutrino disappearance model for the θ₁₃ measurement."
+      },
+      {
+        "path": "neutrino-oscillations/icecube-deepcore.md",
+        "title_latex": "IceCube DeepCore · oscillation analysis",
+        "title_plain": "IceCube DeepCore · oscillation analysis",
+        "summary": "A binned likelihood for atmospheric-neutrino oscillations."
+      }
+    ]
+  },
+  {
+    "section": "Neutrinoless double-beta decay",
+    "entries": [
+      {
+        "path": "double-beta-decay/gerda-0nubb.md",
+        "title_latex": "GERDA · $0\\nu\\beta\\beta$ search",
+        "title_plain": "GERDA · 0νββ search",
+        "summary": "The statistical model for a neutrinoless double-beta-decay search."
+      }
+    ]
+  },
+  {
+    "section": "Nuclear physics",
+    "entries": [
+      {
+        "path": "nuclear/chiral-eft-nn.md",
+        "title_latex": "Chiral EFT · nucleon-nucleon scattering",
+        "title_plain": "Chiral EFT · nucleon-nucleon scattering",
+        "summary": "A chiral effective-field-theory model of nucleon-nucleon scattering."
+      }
+    ]
+  },
+  {
+    "section": "Lattice QCD",
+    "entries": [
+      {
+        "path": "lattice-qcd/lattice-kmatrix.md",
+        "title_latex": "Finite-volume spectra to $K$-matrix amplitudes",
+        "title_plain": "Finite-volume spectra to K-matrix amplitudes",
+        "summary": "A model connecting finite-volume lattice spectra to scattering amplitudes."
+      }
+    ]
+  },
+  {
+    "section": "Astroparticle physics",
+    "entries": [
+      {
+        "path": "astroparticle/icecube-source-correlation.md",
+        "title_latex": "IceCube · source-correlation analysis",
+        "title_plain": "IceCube · source-correlation analysis",
+        "summary": "An unbinned likelihood for correlations between neutrinos and source catalogs."
+      },
+      {
+        "path": "astroparticle/m51-transport.md",
+        "title_latex": "M51 · cosmic-ray transport",
+        "title_plain": "M51 · cosmic-ray transport",
+        "summary": "A cosmic-ray transport model for the Whirlpool Galaxy."
+      },
+      {
+        "path": "astroparticle/solar-gamma-rays.md",
+        "title_latex": "Solar magnetic-field $\\gamma$-ray production",
+        "title_plain": "Solar magnetic-field γ-ray production",
+        "summary": "A simulation-based model of gamma-ray production in the solar magnetic field."
+      }
+    ]
+  },
+  {
+    "section": "Laser-plasma and warm dense matter",
+    "entries": [
+      {
+        "path": "laser-warm-dense-matter/bamber-nonlinear-qed.md",
+        "title_latex": "Bamber et al. · nonlinear QED",
+        "title_plain": "Bamber et al. · nonlinear QED",
+        "summary": "A model of nonlinear QED processes in intense laser fields."
+      },
+      {
+        "path": "laser-warm-dense-matter/wdm-xray.md",
+        "title_latex": "Warm dense matter · X-ray scattering",
+        "title_plain": "Warm dense matter · X-ray scattering",
+        "summary": "An inference model for X-ray scattering from warm dense matter."
+      }
+    ]
+  }
+]

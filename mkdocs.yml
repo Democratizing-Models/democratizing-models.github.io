@@ -8,6 +8,9 @@ copyright: Copyright &copy; 2025
 docs_dir: 'docs/'
 site_dir: 'site/'
 
+hooks:
+  - hooks/gallery.py
+
 theme:
   name: material
   custom_dir: overrides
@@ -184,9 +187,6 @@ nav:
   - About: about.md
   - Gallery:
     - gallery/index.md
-    - "Hadron spectroscopy and amplitude analysis":
-      - gallery/hadron-spectroscopy/index.md
-      - "LHCb · Λc⁺ → pK⁻π⁺": gallery/hadron-spectroscopy/lhcb-lambdac-pkpi.md
   - Consortium:
     - consortium/index.md
     - Members: consortium/members.md

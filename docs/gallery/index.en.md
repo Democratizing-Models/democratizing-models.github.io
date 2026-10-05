@@ -4,7 +4,7 @@ Explore the models behind published results.
 Browse through ingredients, discover available implementations,
 and collect the evidence for reproducing them.
 
-- [Hadron spectroscopy and amplitude analysis](hadron-spectroscopy/index.md)
+<!-- GALLERY_CASES -->
 
 ## Reading an entry
 
