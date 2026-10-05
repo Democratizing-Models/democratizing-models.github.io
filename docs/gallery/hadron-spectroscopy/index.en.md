@@ -6,7 +6,7 @@ Explore the models, available implementations, and reproduction evidence for the
 
 <div class="project-card" markdown>
 
-### LHCb · $\Lambda_c^+\to p K^- \pi^+$
+### LHCb · $\Lambda_c^+\to p K^- \pi^+$ { data-toc-label="LHCb · Λc⁺ → p K⁻ π⁺" }
 
 Follow the coherent sum of resonance amplitudes that describes a charm baryon decay, from model components to mass projections.
 
