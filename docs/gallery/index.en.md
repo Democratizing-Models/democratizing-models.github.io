@@ -4,7 +4,9 @@ Explore the models behind published results.
 Browse through ingredients, discover available implementations,
 and collect the evidence for reproducing them.
 
-- [Hadron spectroscopy and amplitude analysis](hadron-spectroscopy/index.md)
+## Hadron spectroscopy and amplitude analysis
+
+- [LHCb · $\Lambda_c^+\to p K^- \pi^+$](hadron-spectroscopy/lhcb-lambdac-pkpi.md)
 
 ## Reading an entry
 
