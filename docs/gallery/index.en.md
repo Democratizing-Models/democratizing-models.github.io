@@ -16,6 +16,10 @@ and collect the evidence for reproducing them.
 - [Belle II · $B^0\to K^{*0}\tau^+\tau^-$](flavor/belle2-ktautau.md)
 - [LHCb · $B^0\to K^{*0}\mu^+\mu^-$ amplitudes](flavor/lhcb-kstarmumu.md)
 
+## Nuclear physics
+
+- [Chiral EFT · nucleon-nucleon scattering](nuclear/chiral-eft-nn.md)
+
 ## Reading an entry
 
 - **Reported reproduction:** the source report describes a completed comparison;
