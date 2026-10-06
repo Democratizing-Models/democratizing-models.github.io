@@ -8,7 +8,13 @@ and collect the evidence for reproducing them.
 
 - [LHCb · $\Lambda_c^+\to p K^- \pi^+$](hadron-spectroscopy/lhcb-lambdac-pkpi.md)
 
-## Reading an entry
+## Flavor physics
+
+- [Belle II · $B^+\to K^+\nu\bar\nu$](flavor/belle2-knunu.md)
+- [Belle II · $B^0\to K^{*0}\tau^+\tau^-$](flavor/belle2-ktautau.md)
+- [LHCb · $B^0\to K^{*0}\mu^+\mu^-$ amplitudes](flavor/lhcb-kstarmumu.md)
+
++## Reading an entry
 
 - **Reported reproduction:** the source report describes a completed comparison;
   read its scope and limitations before reusing the model.
