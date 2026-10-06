@@ -24,6 +24,10 @@ and collect the evidence for reproducing them.
 
 - [IceCube · source-correlation analysis](astroparticle/icecube-source-correlation.md)
 
+## Lattice QCD
+
+- [Finite-volume spectra to $K$-matrix amplitudes](lattice-qcd/lattice-kmatrix.md)
+
 ## Reading an entry
 
 - **Reported reproduction:** the source report describes a completed comparison;
