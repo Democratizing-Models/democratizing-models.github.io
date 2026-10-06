@@ -8,7 +8,12 @@ and collect the evidence for reproducing them.
 
 - [LHCb · $\Lambda_c^+\to p K^- \pi^+$](hadron-spectroscopy/lhcb-lambdac-pkpi.md)
 
-## Reading an entry
+## Higgs physics
+
+- [ATLAS · Higgs-boson discovery combination](higgs/atlas-higgs-discovery.md)
+- [ATLAS · $VH$, $H\to WW^*$ likelihood](higgs/atlas-public-likelihoods.md)
+
++## Reading an entry
 
 - **Reported reproduction:** the source report describes a completed comparison;
   read its scope and limitations before reusing the model.
