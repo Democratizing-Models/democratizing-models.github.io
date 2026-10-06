@@ -8,7 +8,12 @@ and collect the evidence for reproducing them.
 
 - [LHCb · $\Lambda_c^+\to p K^- \pi^+$](hadron-spectroscopy/lhcb-lambdac-pkpi.md)
 
-## Reading an entry
+## Neutrino physics
+
+- [Daya Bay · reactor $\bar\nu_e$ disappearance](neutrino-oscillations/dayabay-theta13.md)
+- [IceCube DeepCore · oscillation analysis](neutrino-oscillations/icecube-deepcore.md)
+
++## Reading an entry
 
 - **Reported reproduction:** the source report describes a completed comparison;
   read its scope and limitations before reusing the model.
