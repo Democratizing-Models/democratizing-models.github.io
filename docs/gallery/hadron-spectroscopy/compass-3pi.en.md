@@ -47,9 +47,11 @@ are described in the reproduction evidence.
 
 ## Figures
 
-![COMPASS · Partial-wave analysis: reference objective figure](../../assets/gallery/compass-3pi/target_1pp_wave_intensities.png)
+![COMPASS · Partial-wave analysis: reference objective figure intensities](../../assets/gallery/compass-3pi/target_0mp_wave_intensities.png)
 
-*Reference figure from the publication cited below, showing an example of the $1^{++}$ partial wave.*
+![COMPASS · Partial-wave analysis: reference objective figure tprime](../../assets/gallery/compass-3pi/target_0mp_tprime.png)
+
+*Reference figures from the publication cited below, showing an example of the intensity- and $t'$-distributions of the $0^{-+}$ partial wave.*
 
 ## HEPdata
 
