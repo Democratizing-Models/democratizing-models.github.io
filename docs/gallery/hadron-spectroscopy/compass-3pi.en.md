@@ -2,15 +2,15 @@
 analysis_profile:
   category: measure
   field: "Hadron spectroscopy"
-  reason: "Partial-wave amplitudes and intensities require acceptance and normalization information before forming a probability model."
-  note: "Approximate analysis-scale values; costs depend on the workload and implementation."
+  reason: "Unnormalized, acceptance corrected partial-wave amplitudes and intensities; phase-space integration supplies the normalization."
+  note: "Approximate analysis-scale values."
   metrics:
     forward_model_core_hours: 0.1
-    parameter_count: 1000
+    parameter_count: 1000 (resonance model fit) + 100000 (partial wave decomposition)
     analysis_core_hours: 1000
     data_input_mb: 1000
     external_frameworks: 2
-    software_stack_lines: 10000
+    software_stack_lines: 1000000
     citation_count: 100
 ---
 
@@ -49,11 +49,16 @@ are described in the reproduction evidence.
 
 ![COMPASS · Partial-wave analysis: reference objective figure](../../assets/gallery/compass-3pi/target_1pp_wave_intensities.png)
 
-*Reference figure from the publication cited below.*
+*Reference figure from the publication cited below, showing an example of the $1^{++}$ partial wave.*
+
+## HEPdata
+
+- Transition Amplitudes · [DOI: 10.17182/hepdata.82958.v1/t1](https://doi.org/10.17182/hepdata.82958.v1/t1)
+- Decay Phase-Space Volume of Partial Waves · [DOI: 10.17182/hepdata.82958.v1/t2](https://doi.org/10.17182/hepdata.82958.v1/t2)
 
 ## Publications
 
 - **COMPASS:2018uzl** (2018) · [DOI: 10.1103/PhysRevD.98.092003](https://doi.org/10.1103/PhysRevD.98.092003) · [arXiv:1802.05913](https://arxiv.org/abs/1802.05913)
-- **COMPASS:2015gxz** (2017) · [DOI: 10.1103/PhysRevD.95.032004](https://doi.org/10.1103/PhysRevD.95.032004) · [arXiv:1509.00992](https://arxiv.org/abs/1509.00992)
+
 
 [Back to model gallery](../index.md)
