@@ -10,10 +10,10 @@ and collect the evidence for reproducing them.
 
 ## Laser-plasma and warm dense matter
 
-- [Bamber et al. · nonlinear QED](laser-warm-dense-matter/bamber-nonlinear-qed.md)
-- [Warm dense matter · X-ray scattering](laser-warm-dense-matter/wdm-xray.md)
+- [Bamber ***et al.*** -- nonlinear QED](laser-warm-dense-matter/bamber-nonlinear-qed.md)
+- [Döppner ***et al.*** -- Warm dense matter - X-ray Thomson Scattering](laser-warm-dense-matter/wdm-xray.md)
 
-+## Reading an entry
+## Reading an entry
 
 - **Reported reproduction:** the source report describes a completed comparison;
   read its scope and limitations before reusing the model.

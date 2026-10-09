@@ -1,30 +1,30 @@
 ---
 analysis_profile:
   category: mc
-  field: "Laser and warm dense matter"
-  reason: "The proposed Ptarmigan route estimates photon distributions through Monte Carlo electron-laser event simulation."
-  note: "Approximate analysis-scale values; costs depend on the workload and implementation."
+  field: "Lorem ipsum"
+  reason: "Lorem ipsum."
+  note: "Approximate values."
   metrics:
-    forward_model_core_hours: 1
-    parameter_count: 10
-    analysis_core_hours: 100
-    data_input_mb: 10
-    external_frameworks: 2
-    software_stack_lines: 1000
-    citation_count: 100
+    forward_model_core_hours: -1
+    parameter_count: -1
+    analysis_core_hours: -1
+    data_input_mb: -1
+    external_frameworks: -1
+    software_stack_lines: -1
+    citation_count: -1
 ---
 
-# E144 · Nonlinear QED
+# Lorem ipsum
 
-Model photon spectra from high-energy electron–laser collisions and compare nonlinear QED predictions.
+***Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.***
 
 !!! info "Reproduction status"
 
     **In progress**. Independent validation pending. Status updated 2026-07-15.
 
-## Scientific model
+## Statistical model
 
-This case concerns mc density estimation. Convolved nonlinear-Compton photon spectrum with n=1,2,3,4 harmonics; measured electron spectrum as detector-level extension
+***Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.***
 
 The reproduction objective below defines the current scope; a complete published-analysis reproduction is not asserted.
 
@@ -33,10 +33,8 @@ The reproduction objective below defines the current scope; a complete published
 Reusing this model requires the ingredients below. Availability and limitations
 are described in the reproduction evidence.
 
-- Electron-beam and laser parameters
-- intensity parameter and kinematic variables
-- differential rates and strong-field QED approximations
-- detector acceptance, Monte Carlo implementation and benchmark distributions.
+- ***Lorem ipsum***
+- ***Lorem ipsum***
 
 ## Reproduction objective and evidence
 
@@ -52,6 +50,6 @@ are described in the reproduction evidence.
 
 ## Publications
 
-- **Bamber:1999zt** (1999) · [DOI: 10.1103/PhysRevD.60.092004](https://doi.org/10.1103/PhysRevD.60.092004)
+- Bamber, C. ***et al.***, ***Studies of nonlinear QED in collisions of 46.6-GeV electrons with intense laser pulses*** Phys. Rev. D60, 092004 (1999) [DOI: 10.1103/PhysRevD.60.092004](https://doi.org/10.1103/PhysRevD.60.092004)
 
 [Back to model gallery](../index.md)

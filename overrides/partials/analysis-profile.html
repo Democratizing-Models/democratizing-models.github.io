@@ -2,7 +2,8 @@
 {% set categories = {
   "pdf": ["Forward model (pdf)", "An explicit probability model or likelihood, including count probabilities. Monte Carlo may have been used to prepare templates or calibrate tests."],
   "measure": ["Forward model (Measure)", "An unnormalized intensity, amplitude, or theory-response model. Normalization or an observation model is supplied separately."],
-  "mc": ["Simulation-based forward model", "Predictions are obtained through Monte Carlo event or transport simulation. The category describes the forward model; optimization, MCMC, and statistical calibration are separate inference choices."]
+  "mc": ["Simulation-based forward model", "Predictions are obtained through Monte Carlo event or transport simulation. The category describes the forward model; optimization, MCMC, and statistical calibration are separate inference choices."],
+  "inverse": ["Inverse Problem", "Model parameters or latent causes are inferred from observed effects by comparing observations with the predictions of a forward model. Regularization, prior information, or uncertainty quantification may be needed when the inverse mapping is non-unique or sensitive to noise."]
 } %}
 {% set category = categories[profile.category] %}
 {% set metrics = [
