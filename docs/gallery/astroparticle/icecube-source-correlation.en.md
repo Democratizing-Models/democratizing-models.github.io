@@ -52,6 +52,6 @@ are described in the reproduction evidence.
 
 ## Publications
 
-- **Bellenghi:2023icecube** (2023) · [DOI: 10.3847/2041-8213/ad0203](https://doi.org/10.3847/2041-8213/ad0203) · [arXiv:2309.03115](https://arxiv.org/abs/2309.03115)
+- **Bellenghi:2023icecube** (2023) · [DOI:10.3847/2041-8213/acf711](https://doi.org/10.3847/2041-8213/acf711) · [arXiv:2309.03115](https://arxiv.org/abs/2309.03115)
 
 [Back to model gallery](../index.md)
