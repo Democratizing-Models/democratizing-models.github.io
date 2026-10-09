@@ -8,6 +8,11 @@ and collect the evidence for reproducing them.
 
 - [LHCb · $\Lambda_c^+\to p K^- \pi^+$](hadron-spectroscopy/lhcb-lambdac-pkpi.md)
 
+## Laser-plasma and warm dense matter
+
+- [Bamber ***et al.*** -- nonlinear QED](laser-warm-dense-matter/bamber-nonlinear-qed.md)
+- [Döppner ***et al.*** -- Warm dense matter - X-ray Thomson Scattering](laser-warm-dense-matter/wdm-xray.md)
+
 ## Reading an entry
 
 - **Reported reproduction:** the source report describes a completed comparison;
