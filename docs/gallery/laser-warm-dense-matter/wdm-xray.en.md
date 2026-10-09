@@ -1,28 +1,28 @@
 ---
 analysis_profile:
-  category: measure
+  category: inverse
   field: "Warm dense matter"
-  reason: "The forward calculation yields a dynamic structure factor or response spectrum convolved with instrument response, rather than a normalized event pdf."
-  note: "Approximate analysis-scale values; costs depend on the workload and implementation."
+  reason: "Lorem ipsum"
+  note: "Approximate values."
   metrics:
     forward_model_core_hours: 100
     parameter_count: 100
     analysis_core_hours: 1000
-    data_input_mb: 1000
-    external_frameworks: 3
-    software_stack_lines: 10000
+    data_input_mb: -1
+    external_frameworks: 4
+    software_stack_lines: 100000
     citation_count: 100
 ---
 
-# Warm dense matter · X-ray scattering
+# Warm dense matter - X-ray Thomson Scattering
 
-Trace how a dynamic structure factor and instrumental response turn the properties of warm dense matter into an X-ray spectrum.
+X-ray spectra of warm dense matter (WDM) may provide diagnostics for extreme states of matter. Detailed investigations of X-ray spectra may reveal properties like electron density, ionization degree, and temperature, that would otherwise not be available to characterize WDM states.
 
 !!! info "Reproduction status"
 
     **In progress**. Independent validation pending. Status updated 2026-07-15.
 
-## Scientific model
+## Statistical model
 
 Calculate the spectral response of the plasma and convolve it with the instrument function.
 
@@ -30,31 +30,31 @@ Compare or fit the predicted spectrum to the published X-ray scattering measurem
 
 ## Model ingredients
 
-Reusing this model requires the ingredients below. Availability and limitations
-are described in the reproduction evidence.
+Reusing this model requires the ingredients below.
 
-- Thermodynamic state
-- ion/electron response
-- Chihara or non-Chihara decomposition
-- simulation method and structure-factor tables
-- instrument convolution, uncertainty model and derived-dataset provenance.
+***Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.***
 
 ## Reproduction objective and evidence
 
-**Objective:** XRTS spectrum: dynamic-structure-factor model with components over the measured spectrum
+**Objective:** ***Lorem ipsum***
 
-**Scope and limitations:** A proposed reproduction uses a JaXRTS route; the separate WDM repository uses xDAVE. Their assumptions and relation to the original calculation still need expert alignment.
+**Scope and limitations:** ***Lorem ipsum***
+
+## Tools
+
+- [xDAVE](https://github.com/hbellenbaum/xdave)
+- [HEART](https://gitlab.com/heart-ray-tracing/HEART)
+- [QuantumElectrodynamics.jl](https://github.com/QEDjl-project)
+- [JuliaXRTS](https://github.com/JuliaXRTS)
 
 ## Figures
 
-![Warm dense matter · X-ray scattering: reference objective figure](../../assets/gallery/wdm-xray/target_xrts_spectrum_components.png)
+***Lorem ipsum***
 
-*Reference figure from the publication cited below.*
+*Reproduced figure from the publication cited below.*
 
 ## Publications
 
-- **doeppner2023observing** (2023)
-- **dornheim2024unraveling** (2024)
-- **baczewski2016x** (2016)
+- Döppner, T., Bethkenhagen, M., Kraus, D. ***et al.***, ***Observing the onset of pressure-driven K-shell delocalization.*** Nature 618, 270–275 (2023) [DOI: 10.1038/s41586-023-05996-8](https://doi.org/10.1038/s41586-023-05996-8)
 
 [Back to model gallery](../index.md)
