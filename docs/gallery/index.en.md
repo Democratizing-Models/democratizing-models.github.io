@@ -8,7 +8,10 @@ and collect the evidence for reproducing them.
 
 - [LHCb · $\Lambda_c^+\to p K^- \pi^+$](hadron-spectroscopy/lhcb-lambdac-pkpi.md)
 
-## Reading an entry
+- [BESIII · $Z_c(3900)$ in $e^+e^-\to\pi\pi J/\psi$](hadron-spectroscopy/besiii-zc3900.md)
+- [COMPASS · $\pi p\to3\pi p$ partial waves](hadron-spectroscopy/compass-3pi.md)
+
++## Reading an entry
 
 - **Reported reproduction:** the source report describes a completed comparison;
   read its scope and limitations before reusing the model.
