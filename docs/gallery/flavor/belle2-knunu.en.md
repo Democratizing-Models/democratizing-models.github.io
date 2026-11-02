@@ -22,7 +22,7 @@ A released likelihood and response tables open a route from the rare $B^+\to K^+
 
     **In progress**. Independent validation pending. Status updated 2026-07-17.
 
-## Scientific model
+## Statistical model
 
 Reweight the signal kinematics, apply the released response and combine signal and background templates.
 
@@ -44,19 +44,21 @@ are described in the reproduction evidence.
 
 **Scope and limitations:** Public likelihood and response resources have been identified. The reproduction has not yet completed the Standard Model fit and reweighted reinterpretation.
 
+A [FlatPPL](../../projects.md#flatppl) prototype can be found [here](https://gist.github.com/BJMCox/2b075eb92323872801bfb689f0bc9540).
+
 ## Public release
 
 The [HEPData reinterpretation release](https://www.hepdata.net/record/ins2947386) is the primary provenance link for the likelihood and its response resources.
 
 ## Figures
 
-![Belle II · B⁺ → K⁺νν̄: reference objective figure](../../assets/gallery/belle2-knunu/target_qsq_spectrum.png)
+![Belle II · $B^+\to K^+\nu\bar\nu$ reference objective figure](../../assets/gallery/belle2-knunu/target_qsq_spectrum.png)
 
 *Reference figure from the publication cited below.*
 
 ## Publications
 
-- **Belle-II:2023esi** (2024) · [DOI: 10.1103/PhysRevD.109.112006](https://doi.org/10.1103/PhysRevD.109.112006) · [arXiv:2311.14647](https://arxiv.org/abs/2311.14647)
-- **Belle-II:2025knunu** (2025) · [arXiv:2507.12393](https://arxiv.org/abs/2507.12393)
+- **Evidence for $B^+\to K^+\nu\bar\nu$ decays** (2024) · [DOI: 10.1103/PhysRevD.109.112006](https://doi.org/10.1103/PhysRevD.109.112006) · [arXiv:2311.14647](https://arxiv.org/abs/2311.14647)
+- **Model-agnostic likelihood for the reinterpretation of the $B^+\to K^+\nu\bar\nu$ measurement at Belle II** (2025) · [DOI: 10.1103/pr66-sd36](https://doi.org/10.1103/pr66-sd36) · [arXiv:2507.12393](https://arxiv.org/abs/2507.12393)
 
 [Back to model gallery](../index.md)

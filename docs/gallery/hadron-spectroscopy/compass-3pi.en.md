@@ -22,7 +22,7 @@ Public complex amplitudes and covariance matrices provide inputs for a reduced r
 
     **Scoped**. Independent validation pending. Status updated 2026-07-17.
 
-## Scientific model
+## Statistical model
 
 This case concerns closed-form amplitude. Resonance-model curves on published wave intensities and phases for a reduced wave subset
 

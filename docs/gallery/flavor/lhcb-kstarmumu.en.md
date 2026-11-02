@@ -22,9 +22,9 @@ Preserve amplitude conventions and theoretical inputs for a precision flavor mea
 
     **In progress**. Independent validation pending. Status updated 2026-07-15.
 
-## Scientific model
+## Statistical model
 
-This case concerns closed-form amplitude. Pointwise physical signal intensity as the forward path; Figure 10(a) P5-prime interval as the analysis target
+This case concerns closed-form amplitude. Pointwise physical signal intensity as the forward path; Figure 10(a) $P_5^\prime$ interval as the analysis target.
 
 The reproduction objective below defines the current scope; a complete published-analysis reproduction is not asserted.
 
@@ -46,12 +46,12 @@ are described in the reproduction evidence.
 
 ## Figures
 
-![LHCb · B⁰ → K*⁰μ⁺μ⁻: reference objective figure](../../assets/gallery/lhcb-kstarmumu/target_p5prime_total_local.png)
+![LHCb · B^0\to K^{*0}\mu^+\mu^-: reference objective figure](../../assets/gallery/lhcb-kstarmumu/target_p5prime_total_local.png)
 
 *Reference figure from the publication cited below.*
 
 ## Publications
 
-- **LHCb:2024onj** (2024) · [DOI: 10.1007/JHEP09(2024)026](https://doi.org/10.1007/JHEP09(2024)026) · [arXiv:2405.17347](https://arxiv.org/abs/2405.17347)
+- **Comprehensive analysis of local and nonlocal amplitudes in the $B^0\to K^{*0}\mu^+\mu^-$ decay** (2024) · [DOI: 10.1007/JHEP09(2024)026](https://doi.org/10.1007/JHEP09(2024)026) · [arXiv:2405.17347](https://arxiv.org/abs/2405.17347)
 
 [Back to model gallery](../index.md)

@@ -22,7 +22,7 @@ Use the released binned likelihood to investigate an upper limit on the $B^0\to 
 
     **In progress**. Independent validation pending. Status updated 2026-07-17.
 
-## Scientific model
+## Statistical model
 
 This case concerns bin lookup. Observed/expected 90% CL upper limit on the branching fraction from the released pyhf workspace
 
@@ -50,12 +50,12 @@ A [released pyhf likelihood on HEPData](https://www.hepdata.net/record/ins291158
 
 ## Figures
 
-![Belle II · B⁰ → K*⁰τ⁺τ⁻: reference objective figure](../../assets/gallery/belle2-ktautau/target_bdt_fit.png)
+![Belle II · $B^0\to K^{*0}\tau^+\tau^-$: reference objective figure](../../assets/gallery/belle2-ktautau/target_bdt_fit.png)
 
 *Reference figure from the publication cited below.*
 
 ## Publications
 
-- **Belle-II:2025ktautau** (2025) · [DOI: 10.1103/v1q3-9dy8](https://doi.org/10.1103/v1q3-9dy8) · [arXiv:2504.10042](https://arxiv.org/abs/2504.10042)
+- **Search for $B^0\to K^{*0}\tau^+\tau^-$ decays at the Belle II experiment** (2025) · [DOI: 10.1103/v1q3-9dy8](https://doi.org/10.1103/v1q3-9dy8) · [arXiv:2504.10042](https://arxiv.org/abs/2504.10042)
 
 [Back to model gallery](../index.md)

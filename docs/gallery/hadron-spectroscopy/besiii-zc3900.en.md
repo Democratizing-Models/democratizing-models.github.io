@@ -22,7 +22,7 @@ Reproduce the BESIII amplitude model for $e^+e^- \to \pi^+\pi^- J/\psi$ at $\sqr
 
     **In progress**. Independent validation pending. Status updated 2026-10-15.
 
-## Scientific model
+## Statistical model
 
 The model describes $e^+e^- \to \pi^+\pi^- J/\psi$ as a coherent sum of amplitudes corresponding to intermediate resonant contributions, including $Z_c(3900)^\pm$ and resonances in the $\pi^+\pi^-$ system.
 
