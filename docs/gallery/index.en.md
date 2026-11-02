@@ -16,7 +16,11 @@ and collect the evidence for reproducing them.
 - [Belle II · $B^0\to K^{*0}\tau^+\tau^-$](flavor/belle2-ktautau.md)
 - [LHCb · $B^0\to K^{*0}\mu^+\mu^-$ amplitudes](flavor/lhcb-kstarmumu.md)
 
-## Reading an entry
+## Neutrinoless double-beta decay
+
+- [GERDA · $0\nu\beta\beta$ search](double-beta-decay/gerda-0nubb.md)
+
++## Reading an entry
 
 - **Reported reproduction:** the source report describes a completed comparison;
   read its scope and limitations before reusing the model.
