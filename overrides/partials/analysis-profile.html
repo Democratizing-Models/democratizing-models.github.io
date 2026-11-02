@@ -16,10 +16,10 @@
 ] %}
 <section class="analysis-profile" aria-label="Analysis profile">
   <p class="analysis-profile-title">Analysis profile</p>
-  <p class="analysis-profile-field">{{ profile.field | e }}</p>
-  <p class="analysis-profile-model">{{ page.title | e }}</p>
+  <p class="analysis-profile-field arithmatex">{{ profile.field | e }}</p>
+  <p class="analysis-profile-model arithmatex">{{ page.title | e }}</p>
   <span class="analysis-profile-label analysis-profile-label--{{ profile.category }}">{{ category[0] }}</span>
-  <p class="analysis-profile-reason">{{ profile.reason | e }}</p>
+  <p class="analysis-profile-reason arithmatex">{{ profile.reason | e }}</p>
   <table class="analysis-profile-metrics" aria-label="Analysis metrics">
     <tbody>
       {% for key, label, description, thresholds, unit in metrics %}
@@ -41,7 +41,7 @@
       {% endfor %}
     </tbody>
   </table>
-  <p class="analysis-profile-note">{{ profile.note | e }}</p>
+  <p class="analysis-profile-note arithmatex">{{ profile.note | e }}</p>
   <details>
     <summary>About this profile</summary>
     <p>{{ category[1] }}</p>

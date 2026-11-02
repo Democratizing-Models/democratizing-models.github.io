@@ -21,7 +21,7 @@ Follow the coherent sum of resonance amplitudes that describes a charm baryon de
 
     **Reported reproduction**. Independent validation pending. Status updated 2026-07-14.
 
-## Scientific model
+## Statistical model
 
 Combine helicity decay chains, lineshapes and complex couplings into an intensity, then project it over three-body phase space.
 
