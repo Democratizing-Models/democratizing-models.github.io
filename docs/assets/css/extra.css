@@ -55,6 +55,11 @@
   --md-typeset-a-color: #b98cff;
   --md-accent-fg-color: #00e6e6;
   --md-accent-fg-color--transparent: #00e6e61a;
+  --md-accent-bg-color: #1e2129; /* dark text on cyan */
+}
+
+[data-md-color-scheme="slate"] .md-typeset .md-button:not(:hover):not(:focus) {
+  color: var(--md-typeset-a-color);
 }
 
 p.center {
