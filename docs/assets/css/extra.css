@@ -71,3 +71,9 @@ p.center {
   height: 2rem;
   width: auto;
 }
+
+/* Header and tabs: logo gradient (#9042FF -> #00E6E6) */
+.md-header,
+.md-tabs {
+  background: linear-gradient(90deg, #9042ff 0%, #00e6e6 100%);
+}
