@@ -1,7 +1,6 @@
-/* ATLAS Blue Branding
- * ATLAS blue: #0b80c3
- * RGB: 11, 128, 195
- * CMYK: 83, 42, 1, 0
+/* DEMOS Branding (logo credit: Anastasia Kalina)
+ * Symbol gradient: #9042FF -> #00E6E6
+ * Wordmark purple: #8B45EE
  * Font: Open Sans
  */
 
@@ -36,30 +35,26 @@
   font-display: swap;
 }
 
-/* Custom ATLAS color scheme - same blue for light and dark modes */
+/* DEMOS color scheme, taken from the logo */
 :root > * {
-  /* ATLAS primary colors (header, sidebar, links) */
-  --md-primary-fg-color: #0b80c3;
-  --md-primary-fg-color--light: #3d9ed4;
-  --md-primary-fg-color--dark: #086a9f;
+  /* Primary: wordmark purple (header, sidebar, links) */
+  --md-primary-fg-color: #8b45ee;
+  --md-primary-fg-color--light: #a874f3;
+  --md-primary-fg-color--dark: #6f2fcc;
 
-  /* ATLAS accent colors (interactive elements) */
-  --md-accent-fg-color: #0b80c3;
-  --md-accent-fg-color--transparent: #0b80c31a;
+  /* Accent: gradient start (hover, focus) */
+  --md-accent-fg-color: #9042ff;
+  --md-accent-fg-color--transparent: #9042ff1a;
 
-  /* ATLAS fonts */
   --md-text-font: "Open Sans";
   --md-code-font: "Inconsolata";
 }
 
-/* Dark mode - keep the same ATLAS blue */
+/* Dark mode: lighter purple links for contrast, gradient-end cyan accent */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #0b80c3;
-  --md-primary-fg-color--light: #3d9ed4;
-  --md-primary-fg-color--dark: #086a9f;
-
-  --md-accent-fg-color: #0b80c3;
-  --md-accent-fg-color--transparent: #0b80c31a;
+  --md-typeset-a-color: #b98cff;
+  --md-accent-fg-color: #00e6e6;
+  --md-accent-fg-color--transparent: #00e6e61a;
 }
 
 p.center {
@@ -68,7 +63,6 @@ p.center {
 
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
-  height: 4rem; /* Adjust as needed */
-  padding: 0.2rem;
-  background-color: rgba(255, 255, 255, 0.75);
+  height: 2rem;
+  width: auto;
 }
