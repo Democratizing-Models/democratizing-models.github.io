@@ -16,7 +16,12 @@ and collect the evidence for reproducing them.
 - [Belle II · $B^0\to K^{*0}\tau^+\tau^-$](flavor/belle2-ktautau.md)
 - [LHCb · $B^0\to K^{*0}\mu^+\mu^-$ amplitudes](flavor/lhcb-kstarmumu.md)
 
-## Reading an entry
+## Neutrino physics
+
+- [Daya Bay · reactor $\bar\nu_e$ disappearance](neutrino-oscillations/dayabay-theta13.md)
+- [IceCube DeepCore · oscillation analysis](neutrino-oscillations/icecube-deepcore.md)
+
++## Reading an entry
 
 - **Reported reproduction:** the source report describes a completed comparison;
   read its scope and limitations before reusing the model.
