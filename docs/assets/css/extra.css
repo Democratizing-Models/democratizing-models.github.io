@@ -52,6 +52,8 @@
 
 /* Dark mode: lighter purple links for contrast, gradient-end cyan accent */
 [data-md-color-scheme="slate"] {
+  --md-default-fg-color: #eeeef2;
+  --md-default-fg-color--light: #c9c9d2;
   --md-typeset-a-color: #b98cff;
   --md-accent-fg-color: #00e6e6;
   --md-accent-fg-color--transparent: #00e6e61a;
@@ -76,4 +78,22 @@ p.center {
 .md-header,
 .md-tabs {
   background: linear-gradient(90deg, #9042ff 0%, #00e6e6 100%);
+}
+
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-tabs {
+  background: linear-gradient(90deg, #9042ff 0%, #006969 100%);
+}
+
+/* Keep the repository link compact, with its title as the accessible label. */
+.md-source__repository {
+  display: none;
+}
+
+.md-header__source {
+  width: auto;
+}
+
+.md-source__icon {
+  width: 2.4rem;
 }
