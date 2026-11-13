@@ -24,7 +24,7 @@ Combine public neutrino events and detector response with source catalogues in a
 
 ## Scientific model
 
-This case concerns analytic convolution: a sky-scan test-statistic/local-$p$-value map and the hottest-source significance from the public point-source data.
+Model neutrino emission in various astrophysical sources and their detection with e.g. IceCube. Possible extensions could directly include numerical simulation of the source environment.
 
 The reproduction objective below defines the current scope; a complete published-analysis reproduction is not asserted.
 
@@ -41,9 +41,9 @@ are described in the reproduction evidence.
 
 ## Reproduction objective and evidence
 
-**Objective:** Sky-scan test-statistic/local-$p$-value map and hottest-source significance from the public point-source data
+**Objective:** Frequentist: MLEs of model parameters, significance map of the Sky, significance of tested source catalogues; Bayesian: posterior sample of model parameters, such as spectral index or number of point source events
 
-**Scope and limitations:** The intended 2008–2022 data release is identified. The forward model, catalog search and trial factor correction needs to be implemented.
+**Scope and limitations:** The intended 2008–2022 data release is identified [DOI:10.7910/DVN/MMIIZA](https://doi.org/10.7910/DVN/MMIIZA). The forward model, catalog search and trial factor correction needs to be implemented.
 ## Figures
 
 ![IceCube · Source correlations: reference objective figure](../../assets/gallery/icecube-source-correlation/target_sky_scan.png)
