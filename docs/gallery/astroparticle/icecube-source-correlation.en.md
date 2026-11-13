@@ -2,8 +2,8 @@
 analysis_profile:
   category: pdf
   field: "Astroparticle physics"
-  reason: "An explicit unbinned sky likelihood models signal and background. Scrambling or trials corrections calibrate significance, not the forward density."
-  note: "Approximate analysis-scale values; costs depend on the workload and implementation."
+  reason: "An explicit unbinned likelihood models signal and background. Scrambling or trials corrections calibrate significance, not the forward density."
+  note: "Values for a single position on the sky. Total workload depends on the desired resolution."
   metrics:
     forward_model_core_hours: 0.00001
     parameter_count: 2
@@ -33,17 +33,17 @@ The reproduction objective below defines the current scope; a complete published
 Reusing this model requires the ingredients below. Availability and limitations
 are described in the reproduction evidence.
 
-- Neutrino event sample or skymap
-- source catalogues and selection
-- source spectrum, unbinned sky likelihood or correlation statistic
+- Neutrino event sample
+- source catalogue
+- source spectrum
+- forward model to observables: reconstructed muon energy and direction, per-event angular resolution
 - trial-factor treatment and data-release provenance.
 
 ## Reproduction objective and evidence
 
 **Objective:** Sky-scan test-statistic/local-$p$-value map and hottest-source significance from the public point-source data
 
-**Scope and limitations:** The intended 2008–2018 data release is identified. The sky-scan likelihood reproduction remains to be implemented.
-
+**Scope and limitations:** The intended 2008–2022 data release is identified. The forward model, catalog search and trial factor correction needs to be implemented.
 ## Figures
 
 ![IceCube · Source correlations: reference objective figure](../../assets/gallery/icecube-source-correlation/target_sky_scan.png)
