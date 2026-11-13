@@ -38,6 +38,8 @@ are described in the reproduction evidence.
 - detector response, prompt-energy spectra and background shapes
 - nuisance treatment and covariance matrices.
 
+Full data set available on zenodo: [DOI:10.5281/zenodo.17587228](https://doi.org/10.5281/zenodo.17587228).
+
 ## Reproduction objective and evidence
 
 **Objective:** $1\sigma$, $2\sigma$, and $3\sigma$ contours in $(\sin^2 2\theta_{13},\Delta m^2_{32})$ overlaid on the official 3158-day $\Delta\chi^2$ surface
@@ -46,7 +48,7 @@ are described in the reproduction evidence.
 
 ## Which analysis is reproduced?
 
-The reported contour comparison instead targets the [3158-day measurement, arXiv:2211.14988](https://arxiv.org/abs/2211.14988), using Newtrinos.jl. The reproduction report describes a two-dimensional grid scan with approximately 175 nuisance parameters.
+The reported contour comparison targets the [3158-day measurement, arXiv:2211.14988](https://arxiv.org/abs/2211.14988), using Newtrinos.jl. The reproduction report describes a two-dimensional grid scan with approximately 175 nuisance parameters.
 
 ## Figures
 
