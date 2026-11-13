@@ -16,6 +16,11 @@ and collect the evidence for reproducing them.
 - [Belle II · $B^0\to K^{*0}\tau^+\tau^-$](flavor/belle2-ktautau.md)
 - [LHCb · $B^0\to K^{*0}\mu^+\mu^-$ amplitudes](flavor/lhcb-kstarmumu.md)
 
+## Laser-plasma and warm dense matter
+
+- [Bamber ***et al.*** -- nonlinear QED](laser-warm-dense-matter/bamber-nonlinear-qed.md)
+- [Döppner ***et al.*** -- Warm dense matter - X-ray Thomson Scattering](laser-warm-dense-matter/wdm-xray.md)
+
 ## Reading an entry
 
 - **Reported reproduction:** the source report describes a completed comparison;
