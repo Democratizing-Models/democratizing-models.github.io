@@ -16,6 +16,8 @@ theme:
     repo: fontawesome/brands/github
     edit: material/pencil
   font: false
+  logo: assets/images/demos-logo-white.svg
+  favicon: assets/images/favicon.svg
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
