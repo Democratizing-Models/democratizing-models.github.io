@@ -16,7 +16,13 @@ and collect the evidence for reproducing them.
 - [Belle II · $B^0\to K^{*0}\tau^+\tau^-$](flavor/belle2-ktautau.md)
 - [LHCb · $B^0\to K^{*0}\mu^+\mu^-$ amplitudes](flavor/lhcb-kstarmumu.md)
 
-## Reading an entry
+## Astroparticle physics
+
+- [IceCube · source-correlation analysis](astroparticle/icecube-source-correlation.md)
+- [M51 · cosmic-ray transport](astroparticle/m51-transport.md)
+- [Solar magnetic-field $\gamma$-ray production](astroparticle/solar-gamma-rays.md)
+
++## Reading an entry
 
 - **Reported reproduction:** the source report describes a completed comparison;
   read its scope and limitations before reusing the model.
