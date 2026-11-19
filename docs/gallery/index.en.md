@@ -20,6 +20,10 @@ and collect the evidence for reproducing them.
 
 - [Daya Bay · reactor $\bar\nu_e$ disappearance](neutrino-oscillations/dayabay-theta13.md)
 
+## Astroparticle physics
+
+- [IceCube · source-correlation analysis](astroparticle/icecube-source-correlation.md)
+
 ## Reading an entry
 
 - **Reported reproduction:** the source report describes a completed comparison;
