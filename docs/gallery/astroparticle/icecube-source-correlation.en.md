@@ -44,6 +44,7 @@ are described in the reproduction evidence.
 **Objective:** Frequentist: MLEs of model parameters, significance map of the Sky, significance of tested source catalogues; Bayesian: posterior sample of model parameters, such as spectral index or number of point source events
 
 **Scope and limitations:** The intended 2008–2022 data release is identified [DOI:10.7910/DVN/MMIIZA](https://doi.org/10.7910/DVN/MMIIZA). The forward model, catalog search and trial factor correction needs to be implemented.
+
 ## Figures
 
 ![IceCube · Source correlations: reference objective figure](../../assets/gallery/icecube-source-correlation/target_sky_scan.png)
@@ -52,6 +53,6 @@ are described in the reproduction evidence.
 
 ## Publications
 
-- **Bellenghi:2023icecube** (2023) · [DOI:10.3847/2041-8213/acf711](https://doi.org/10.3847/2041-8213/acf711) · [arXiv:2309.03115](https://arxiv.org/abs/2309.03115)
+- **Correlating High-energy IceCube Neutrinos with 5BZCAT Blazars and RFC Sources** (2023) · [DOI:10.3847/2041-8213/acf711](https://doi.org/10.3847/2041-8213/acf711) · [arXiv:2309.03115](https://arxiv.org/abs/2309.03115)
 
 [Back to model gallery](../index.md)
