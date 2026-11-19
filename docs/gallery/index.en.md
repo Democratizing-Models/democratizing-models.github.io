@@ -16,6 +16,11 @@ and collect the evidence for reproducing them.
 - [Belle II · $B^0\to K^{*0}\tau^+\tau^-$](flavor/belle2-ktautau.md)
 - [LHCb · $B^0\to K^{*0}\mu^+\mu^-$ amplitudes](flavor/lhcb-kstarmumu.md)
 
+## Astroparticle physics
+
+- [M51 · cosmic-ray transport](astroparticle/m51-transport.md)
+- [Solar magnetic-field $\gamma$-ray production](astroparticle/solar-gamma-rays.md)
+
 ## Reading an entry
 
 - **Reported reproduction:** the source report describes a completed comparison;
