@@ -44,6 +44,7 @@ are described in the reproduction evidence.
 **Objective:** Frequentist: MLEs of model parameters, significance map of the Sky, significance of tested source catalogues; Bayesian: posterior sample of model parameters, such as spectral index or number of point source events
 
 **Scope and limitations:** The intended 2008–2022 data release is identified [DOI:10.7910/DVN/MMIIZA](https://doi.org/10.7910/DVN/MMIIZA). The forward model, catalog search and trial factor correction needs to be implemented.
+Reference implementation is [skyllh](https://github.com/icecube/skyllh).
 
 ## Figures
 
