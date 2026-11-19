@@ -26,7 +26,7 @@ and collect the evidence for reproducing them.
 
 ## Lattice QCD
 
-- [Finite-volume spectra to $K$-matrix amplitudes](lattice-qcd/lattice-kmatrix.md)
+- [Lattice QCD · $I=1$ $\pi\pi$ amplitude and timelike pion form factor](lattice-qcd/lattice-kmatrix.md)
 
 ## Reading an entry
 
