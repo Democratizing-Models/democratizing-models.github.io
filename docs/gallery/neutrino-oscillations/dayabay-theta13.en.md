@@ -48,7 +48,7 @@ Full data set available on zenodo: [DOI:10.5281/zenodo.17587228](https://doi.org
 
 ## Which analysis is reproduced?
 
-The reported contour comparison targets the [3158-day measurement, arXiv:2211.14988](https://arxiv.org/abs/2211.14988), using Newtrinos.jl. The reproduction report describes a two-dimensional grid scan with approximately 175 nuisance parameters.
+The reported contour comparison targets the 3158-day measurement cited below, using Newtrinos.jl. The reproduction report describes a two-dimensional grid scan with approximately 175 nuisance parameters.
 
 ## Figures
 
@@ -62,6 +62,6 @@ The reported contour comparison targets the [3158-day measurement, arXiv:2211.14
 
 ## Publications
 
-- **DayaBay:2022** (2022) · [DOI: 10.1103/PhysRevLett.130.161802](https://doi.org/10.1103/PhysRevLett.130.161802)
+- **Precision Measurement of Reactor Antineutrino Oscillation at Kilometer-Scale Baselines by Daya Bay** (2023) · [DOI: 10.1103/PhysRevLett.130.161802](https://doi.org/10.1103/PhysRevLett.130.161802) · [arXiv:2211.14988](https://arxiv.org/abs/2211.14988)
 
 [Back to model gallery](../index.md)
