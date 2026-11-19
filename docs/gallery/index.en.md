@@ -24,6 +24,10 @@ and collect the evidence for reproducing them.
 
 - [IceCube · source-correlation analysis](astroparticle/icecube-source-correlation.md)
 
+## Lattice QCD
+
+- [Lattice QCD · $I=1$ $\pi\pi$ amplitude and timelike pion form factor](lattice-qcd/lattice-kmatrix.md)
+
 ## Reading an entry
 
 - **Reported reproduction:** the source report describes a completed comparison;
